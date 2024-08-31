@@ -1,3 +1,4 @@
+*.node filter=lfs diff=lfs merge=lfs -text
 *.DS_Store filter=lfs diff=lfs merge=lfs -text
 *.env filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
@@ -50,7 +51,6 @@
 /node_modules/@jridgewell/sourcemap-codec/LICENSE filter=lfs diff=lfs merge=lfs -text
 /node_modules/@jridgewell/trace-mapping/LICENSE filter=lfs diff=lfs merge=lfs -text
 /node_modules/@js-sdsl/ordered-map/LICENSE filter=lfs diff=lfs merge=lfs -text
-*.node filter=lfs diff=lfs merge=lfs -text
 /node_modules/@nodelib/fs.scandir/LICENSE filter=lfs diff=lfs merge=lfs -text
 /node_modules/@nodelib/fs.stat/LICENSE filter=lfs diff=lfs merge=lfs -text
 /node_modules/@nodelib/fs.walk/LICENSE filter=lfs diff=lfs merge=lfs -text
